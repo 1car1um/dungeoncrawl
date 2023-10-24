@@ -22,6 +22,7 @@ use prelude::*;
 struct State{
     map: Map,
     player: Player,
+    camera: Camera
 }
 
 impl State{
